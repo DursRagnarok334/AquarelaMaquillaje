@@ -8,7 +8,7 @@
  * 3. Guarda y despliega
  * 4. Ve a Settings → Variables → Add variable:
  *      Nombre:  GROQ_API_KEY
- *      Valor:   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   (tu key de console.groq.com)
+ *      Valor:   gsk_xxxxxxxxxxxxxxxxxxxxxx   (tu key de console.groq.com)
  *      ✅ Marca "Encrypt"
  * 5. Copia la URL del Worker (ej: https://aquarela-ia.tu-nombre.workers.dev)
  * 6. Pégala en el Analista IA de la app cuando te la pida
@@ -19,9 +19,7 @@ const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions'
 // Orígenes permitidos — agrega el dominio donde hospedarás la app
 // Usa '*' solo en desarrollo/pruebas
 const ALLOWED_ORIGINS = [
-  '*', // cambia esto en producción por tu dominio real
-  // 'https://aquarela.tudominio.com',
-  // 'https://aquarela-maquillaje.web.app',
+  'https://dursragnarok334.github.io',
 ]
 
 function corsHeaders(origin) {
